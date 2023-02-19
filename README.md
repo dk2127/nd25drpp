@@ -1,5 +1,13 @@
-# nd25drpp
 # Disaster Response Pipeline Project
+
+## Introduction
+
+In this project, we have a data set containing real messages that were sent during disaster events. We will be creating a machine learning pipeline to categorize these events so that we can send the messages to an appropriate disaster relief agency.
+
+Our project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display a couple visualizations of the data.
+
+This project showcases our software skills, including our ability to create basic data pipelines and write clean, organized code!
+
 
 ## Project Steps
 + ETL, process_data.py 
@@ -39,3 +47,5 @@ it in a SQLite database. We do the data cleaning with pandas. To load the data i
        python run.py
     ```
 3. Go to http://0.0.0.0:3001/ on the workspace IDE
+
+### nd25drpp
