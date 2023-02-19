@@ -1,19 +1,21 @@
 # nd25drpp
 # Disaster Response Pipeline Project
 
-Project Step
+Project Steps
 + ETL, process_data.py : The first part of the data pipeline is the Extract, Transform, and Load process. Here, we will read the dataset, clean the data, and then store 
 it in a SQLite database. We do the data cleaning with pandas. To load the data into an SQLite database, we use the pandas dataframe .to_sql() method, with an SQLAlchemy
 engine.
 
-  There is Jupyter notebook that has some exploratory data analysis to clean the data set. 
+  There are Jupyter notebooks that have exploratory data analysis for ETL.
 
 + Machine Learning Pipeline, train_classifier.py : For the machine learning portion, we will split the data into a training set and a test set. Then, we will create 
 a machine learning pipeline that uses NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model that uses the message column to predict 
-classifications for 36 categories (multi-output classification). Finally, we will export your model to a pickle file. 
+classifications for 30+ categories (multi-output classification). Finally, we will export your model to a pickle file.
+
+  Two Jupyter notebooks are included that have exploratory analysis for model development using, Logistics Regression and SVM.
 
 
-+ Flask App, in the app folder has the starter files to display the results. The web app will need to upload the database file and pkl file with the model.
++ Flask App, run.py: in the app folder has the starter files to display the results. The web app uses the database file and pkl file with the model.
 
   Each file has the libraries imported as required.
 
