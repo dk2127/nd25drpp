@@ -22,7 +22,7 @@ it in a SQLite database. We do the data cleaning with pandas. To load the data i
 
 ### Instructions:
 
-### Please create directory with files in them, as it appears in this repo.
+### Please create directories with files in them, as they appear in this repo.
 
 1. Run the following commands in the project's root directory to set up your database and model.
 
