@@ -186,7 +186,8 @@ def save_data(df, database_filename):
     engine = create_engine(database_url, pool_pre_ping=True)
 
     # copy the df dataframe to SQLITE db with tablename before the .db extention
-    tablename = database_filename.split('.')[0]
+    tablename = database_filename.split('/')[1]
+    tablename = tablename.split('.')[0]
     print("Saving to tablename=", tablename)
     df.to_sql(tablename, engine, if_exists='replace', index=False)
 
