@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on 2/16/2023 7:48pm
-
-@author: Admin
+This program validates if the database is readable.
+@author: dk2127
 """
 
 # Create the SQLite engine
